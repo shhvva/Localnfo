@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins&family=Quicksand&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000;
+  color: #54191d;
+}
+body {
+  background: rgba(0, 0, 0, 0) url("/public/assets/Map.webp") center/cover
+    no-repeat;
+}
+.NavBar {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1%;
+  margin: 1%;
+  width: 100;
+}
+#SearchButton {
+  border-radius: 10px;
+  height: 57px;
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+}
+.SearchBox {
+  display: flex;
+}
+#SearchBar {
+  border: 1px solid #ddd;
+  height: auto;
+  width: 25rem;
+  margin: 10px;
+  padding: 10px;
+  padding-left: 7px;
+  font-size: large;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1);
+}
+.Logo {
+  font-size: x-large;
+}
+.BodyBox {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-evenly;
+}
+.CityNameDiv {
+  font-size: 2rem;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.InfoOptions {
+  padding: 0.5rem;
+  font-size: 2rem;
+  transition: 0.3s ease;
+}
+.InfoOptions:hover {
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.LocalnfoData {
+  font-size: large;
+  font-weight: bolder;
+  color: #2e1e0f;
+}
+
+.transbox {
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.Loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: xx-large;
+}
