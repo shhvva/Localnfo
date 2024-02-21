@@ -136,6 +136,9 @@ const Localnfo = () => {
           "\n";
         document.getElementById("LocalnfoData").innerText = weatherInfo;
         break;
+      case 4:
+        document.getElementById("LocalnfoData").innerText = "Coming soon...";
+        break;
       default:
         break;
     }
@@ -201,11 +204,7 @@ const Localnfo = () => {
 
   const renderdata = () => {
     var city = document.getElementById("SearchBar").value;
-    window.scrollTo({
-      top: 100,
-      left: 100,
-      behavior: "smooth",
-    });
+    window.scrollTo(0, document.body.scrollHeight);
     setCityName(city);
 
     fetchdata(city);
@@ -242,7 +241,9 @@ const Localnfo = () => {
               <p className="InfoOptions transbox" onClick={() => showData(3)}>
                 Weather
               </p>
-              <p className="InfoOptions transbox">Map</p>
+              <p className="InfoOptions transbox" onClick={() => showData(4)}>
+                Map
+              </p>
               <p className="InfoOptions transbox">Places to visit</p>
               <p className="InfoOptions transbox">Medical Facilities</p>
             </div>
