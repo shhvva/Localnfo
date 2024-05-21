@@ -1,23 +1,42 @@
-# Getting Started with Localnfo
+# Localnfo 📍🌆
+GDSC Hackathon project
+Teammates : Kasi Vishwanath, Sunny Joel and Me.
+Localnfo is a web application that provides users with information about cities. With just the name of a city, users can access a wealth of information about that location.
 
-You need an API Ninja account and API key to run this web application
-You can get one at https://api-ninjas.com/
+## Features 🔍
 
-After getting the API KEY ,Put it in the place of "API_KEY" at Localnfo.js inside src line 5
+- Get city information based on city name
+- Access details such as weather, population, and more
+- Responsive design for optimal viewing experience on different devices
+- Utilizes the API Ninjas API for data
 
-install npm modules
+## Technologies Used 💻
 
-## Available Scripts
+- React
+- JavaScript
+- HTML
+- CSS
+- API Ninjas API
 
-In the project directory, you can run it locally:
+## Getting Started 🚀
 
-### `npm start`
+1. Clone the repository: `git clone https://github.com/shhvva/Localnfo.git`
+2. Navigate to the project directory: `cd Localnfo`
+3. Install dependencies: `npm install`
+4. Sign up for an API Ninja account and obtain an API key from https://api-ninjas.com/
+5. Replace `"API_KEY"` on line 5 of `Localnfo.js` (in the `src` directory) with your actual API key
+6. Start the development server: `npm start`
+7. Open the application in your browser: `http://localhost:3000`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage 📖
 
-### Localnfo
+1. Enter the name of a city in the search input field
+2. The application will fetch and display information about the city, including weather, population, and more
 
-Video on YT explaining the project https://youtu.be/2Z3hLLortuY?si=0D3xh0IM2yarFXxF
-This a beta version
-We will implement more features in the future ,like map of the city and many more.
+## Contributing 🤝
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## Additional Resources 📚
+
+Check out the project explanation video on YouTube: https://youtu.be/2Z3hLLortuY?si=0D3xh0IM2yarFXxF
