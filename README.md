@@ -33,6 +33,10 @@ Localnfo is a web application that provides users with information about cities.
 1. Enter the name of a city in the search input field
 2. The application will fetch and display information about the city, including weather, population, and more
 
+## Snapshots
+
+<img src="https://media.licdn.com/dms/image/D562DAQEnBCMe6jp5TA/profile-treasury-image-shrink_800_800/0/1708569998346?e=1716886800&v=beta&t=a247LsZ5XhqV3B7xmjWgHEDZ7UZNhqFg_AQku1twNww" alt="Localnfo" width="600" >
+
 ## Contributing 🤝
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
