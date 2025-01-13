@@ -40,7 +40,3 @@ Localnfo is a web application that provides users with information about cities.
 ## Contributing 🤝
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## Additional Resources 📚
-
-Check out the project explanation video on YouTube: https://youtu.be/2Z3hLLortuY?si=0D3xh0IM2yarFXxF
