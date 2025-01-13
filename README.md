@@ -1,6 +1,5 @@
 # Localnfo 📍🌆
 GDSC Hackathon project
-Teammates : Kasi Vishwanath, Sunny Joel and Me.
 Localnfo is a web application that provides users with information about cities. With just the name of a city, users can access a wealth of information about that location.
 
 ## Features 🔍
